@@ -15,6 +15,11 @@
  text-align: center; 
  transition: transform 0.3s;
 }
+
+ .cat-breed:hover{
+  transform: scale(1.05);
+}
+
 .cat-breed img {
   max-width: 100%;
   height: auto; 
@@ -26,18 +31,16 @@
 }   
 .cat-breed p {
   margin: 0.5em 0 1em;
-
-}
-@media  (max-width: 768px){
- .cat-container { 
-        flex-direction: column;
-        align-items: center;
-    }
-  .cat-breed {
-        flex: 1 1 100%;
-        max-width: 100%;
-    }
 }
 
-.cat-breed:hover {
-  transform: scale(1.05)
+@media (max-width: 768px) {
+.cat-container { 
+ flex-direction: column;
+ align-items: center;
+}
+.cat-breed {
+  flex: 1 1 100%;
+  max-width:100%;
+}
+}
+ 
