@@ -16,7 +16,7 @@
  transition: transform 0.3s;
 }
 
- .cat-breed:hover{
+ .cat-breed:hover {
   transform: scale(1.05);
 }
 
