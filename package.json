@@ -1,14 +1,26 @@
 {
   "name": "phase-0-js-css-layouts-lab",
   "version": "1.0.0",
+  "description": "**Estimate Completed Time:** 30-60 min.",
+  "keywords": [],
+  "homepage": "https://github.com/larrythuku18-lab/css-lab-repository#readme",
+  "bugs": {
+    "url": "https://github.com/larrythuku18-lab/css-lab-repository/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larrythuku18-lab/css-lab-repository.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "devDependencies": {
     "jest": "^29.7.0",
     "jsdom": "^24.1.1"
